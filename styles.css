@@ -14,8 +14,8 @@ a{
     letter-spacing: -0.7px;
     color: #FFF;
     text-decoration: none;
-    text-align: center;
-    max-width: 200px;
+    /* text-align: center;
+    max-width: 200px; */
     margin: auto;
 }
 
@@ -54,11 +54,14 @@ img[src*="World-Map-mobile"]{
 .for-mail{
     margin-top: 2.4rem;
     text-align: center;
+    padding-inline: 4%;
     display: flex;
+    gap: 0.5rem;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
-    padding-inline: 4%;
+}
+a.btn.btn--contact{
+    margin: 0px 0px;
 }
 .for-mail a{
     transition: all 0.3s;
