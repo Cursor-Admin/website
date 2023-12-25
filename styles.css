@@ -54,7 +54,19 @@ img[src*="World-Map-mobile"]{
 .for-mail{
     margin-top: 2.4rem;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
     padding-inline: 4%;
+}
+.for-mail a{
+    transition: all 0.3s;
+}
+.for-mail a:hover{
+    color: #CDFC54;
+    transform: scale(1.05);
+    
 }
 @media screen and (max-width: 1036px){
     img[src*="World-Map-mobile"]{
